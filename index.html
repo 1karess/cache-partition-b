@@ -43,10 +43,6 @@
 <!-- ④ JS probe (shared URL) -->
 <script src="https://cache-partition-tracker.vercel.app/probe.js" defer></script>
 
-<!-- Sanity control: per-site URL — must NEVER share -->
-<link rel="preload" as="image"
-      href="https://cache-partition-tracker.vercel.app/probe.png?variant=ctrl_b">
-
 </head>
 <body>
 
@@ -75,7 +71,6 @@
   <b>嵌入资源</b>：
   <code>/probe.png</code> · <code>/probe.css</code> ·
   <code>/probe.woff2</code> · <code>/probe.js</code> ·
-  <code>/probe.png?variant=ctrl_b</code> ·
   <code>/beacon.gif</code>（不缓存，每次必发）
 </p>
 
